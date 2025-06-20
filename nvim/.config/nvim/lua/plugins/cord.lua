@@ -1,0 +1,36 @@
+return {}
+--   {
+--     "vyfor/cord.nvim",
+--     build = ":Cord update",
+--     opts = {
+--       idle = {
+--         enabled = false,
+--       },
+--       timestamp = {
+--         enabled = false,
+--         reset_on_change = false,
+--       },
+--       display = {
+--         theme = "catppuccin",
+--         flavor = "dark",
+--       },
+--       text = {
+--         workspace = "",
+--         viewing = "",
+--         editing = "",
+--         file_browser = "",
+--         plugin_manager = "",
+--         lsp = "",
+--         docs = "",
+--         vcs = "",
+--         notes = "",
+--         debug = "",
+--         test = "",
+--         diagnostics = "",
+--         games = "",
+--         terminal = "",
+--         dashboard = "",
+--       },
+--     },
+--   },
+-- }
