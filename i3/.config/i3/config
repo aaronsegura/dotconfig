@@ -64,9 +64,10 @@ bindsym $mod+Return exec xfce4-terminal --hide-menubar --maximize --hide-scrollb
 # kill focused window
 bindsym $mod+Shift+q kill
 
-# Bind the startup menu to both keys:
+# Bind the startup menu to some keys
 bindsym $mod+Escape exec --no-startup-id ~/.local/bin/rofi -show drun
 bindsym Mod1+Escape exec --no-startup-id ~/.local/bin/rofi -show drun
+bindsym Control+Escape exec --no-startup-id ~/.local/bin/rofi -show drun
 
 # Window Picker
 bindsym $mod+Tab exec --no-startup-id ~/.local/bin/rofi -show
