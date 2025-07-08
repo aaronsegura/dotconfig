@@ -36,6 +36,9 @@ exec --no-startup-id dex --autostart --environment i3
 # NetworkManager applet
 exec --no-startup-id nm-applet
 
+# Input leap, KVM
+exec --no-startup-id /usr/local/bin/input-leap
+
 #####################
 # Run every restart
 # 
@@ -135,6 +138,9 @@ bindsym $mod+s exec "xfce4-screenshooter"
 
 # Move to scratchpad
 bindsym $mod+x move scratchpad
+
+# Play nicely with Mac Bindings
+#bindsym --release Mod1+W exec --no-startup-id xdotool key --clearmodifiers ctrl+w
 
 # Workspace Definitions
 set $ws1 "1"
